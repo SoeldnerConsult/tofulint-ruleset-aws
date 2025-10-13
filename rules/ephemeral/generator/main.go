@@ -4,8 +4,8 @@ import (
 	"slices"
 	"strings"
 
+	utils "github.com/arsiba/tofulint-ruleset-aws/rules/generator-utils"
 	tfjson "github.com/hashicorp/terraform-json"
-	utils "github.com/terraform-linters/tflint-ruleset-aws/rules/generator-utils"
 )
 
 type writeOnlyArgument struct {

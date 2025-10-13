@@ -12,8 +12,8 @@ import (
 	"testing"
 	"text/template"
 
+	"github.com/arsiba/tofulint-ruleset-aws/project"
 	"github.com/google/go-cmp/cmp"
-	"github.com/terraform-linters/tflint-ruleset-aws/project"
 )
 
 type meta struct {
@@ -49,7 +49,7 @@ func TestIntegration(t *testing.T) {
 			Dir:     "basic",
 		},
 		{
-			// Regression: https://github.com/terraform-linters/tflint-ruleset-aws/issues/41
+			// Regression: https://github.com/arsiba/tofulint-ruleset-aws/issues/41
 			Name:    "rule config",
 			Command: exec.Command("tflint", "--format", "json", "--force"),
 			Dir:     "rule-config",
@@ -73,7 +73,7 @@ func TestIntegration(t *testing.T) {
 			Dir:     "disabled-rules",
 		},
 		{
-			// Regression: https://github.com/terraform-linters/tflint-ruleset-aws/issues/48
+			// Regression: https://github.com/arsiba/tofulint-ruleset-aws/issues/48
 			Name:    "cty-based-eval",
 			Command: exec.Command("tflint", "--format", "json", "--force"),
 			Dir:     "cty-based-eval",

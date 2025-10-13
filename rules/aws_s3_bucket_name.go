@@ -6,9 +6,9 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-aws/project"
+	"github.com/arsiba/tofulint-plugin-sdk/hclext"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-ruleset-aws/project"
 )
 
 // AwsS3BucketNameRule checks that an S3 bucket name matches naming rules
@@ -148,14 +148,14 @@ func (r *AwsS3BucketNameRule) Check(runner tflint.Runner) error {
 				}
 			}
 
-      nameAsIP := net.ParseIP(name)
-      if nameAsIP != nil && net.IP.To4(nameAsIP) != nil {
-        runner.EmitIssue(
-          r,
-          fmt.Sprintf(`Bucket names must not be formatted as an IP address. (name: %q)`, name),
-          attribute.Expr.Range(),
-        )
-      }
+			nameAsIP := net.ParseIP(name)
+			if nameAsIP != nil && net.IP.To4(nameAsIP) != nil {
+				runner.EmitIssue(
+					r,
+					fmt.Sprintf(`Bucket names must not be formatted as an IP address. (name: %q)`, name),
+					attribute.Expr.Range(),
+				)
+			}
 
 			for _, rule := range regexRules {
 				if rule.Regexp.MatchString(name) {

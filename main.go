@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/terraform-linters/tflint-plugin-sdk/plugin"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-aws/aws"
-	"github.com/terraform-linters/tflint-ruleset-aws/project"
-	"github.com/terraform-linters/tflint-ruleset-aws/rules"
+	"github.com/arsiba/tofulint-plugin-sdk/plugin"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-ruleset-aws/aws"
+	"github.com/arsiba/tofulint-ruleset-aws/project"
+	"github.com/arsiba/tofulint-ruleset-aws/rules"
 )
 
 func main() {

@@ -5,11 +5,11 @@ package api
 import (
 	"fmt"
 
+	"github.com/arsiba/tofulint-plugin-sdk/hclext"
+	"github.com/arsiba/tofulint-plugin-sdk/logger"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-ruleset-aws/aws"
 	hcl "github.com/hashicorp/hcl/v2"
-	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
-	"github.com/terraform-linters/tflint-plugin-sdk/logger"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-aws/aws"
 )
 
 // AwsElastiCacheReplicationGroupInvalidSecurityGroupRule checks whether attribute value actually exists

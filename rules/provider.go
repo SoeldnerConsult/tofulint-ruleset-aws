@@ -1,10 +1,10 @@
 package rules
 
 import (
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-aws/rules/api"
-	"github.com/terraform-linters/tflint-ruleset-aws/rules/ephemeral"
-	"github.com/terraform-linters/tflint-ruleset-aws/rules/models"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-ruleset-aws/rules/api"
+	"github.com/arsiba/tofulint-ruleset-aws/rules/ephemeral"
+	"github.com/arsiba/tofulint-ruleset-aws/rules/models"
 )
 
 var manualRules = []tflint.Rule{

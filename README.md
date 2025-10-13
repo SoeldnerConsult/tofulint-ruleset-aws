@@ -1,6 +1,6 @@
 # TFLint Ruleset for terraform-provider-aws
-[![Build Status](https://github.com/terraform-linters/tflint-ruleset-aws/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/terraform-linters/tflint-ruleset-aws/actions)
-[![GitHub release](https://img.shields.io/github/release/terraform-linters/tflint-ruleset-aws.svg)](https://github.com/terraform-linters/tflint-ruleset-aws/releases/latest)
+[![Build Status](https://github.com/arsiba/tofulint-ruleset-aws/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/arsiba/tofulint-ruleset-aws/actions)
+[![GitHub release](https://img.shields.io/github/release/arsiba/tofulint-ruleset-aws.svg)](https://github.com/arsiba/tofulint-ruleset-aws/releases/latest)
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-blue.svg)](LICENSE)
 
 TFLint ruleset plugin for Terraform AWS Provider
@@ -20,7 +20,7 @@ After configuring [TFLint](https://github.com/terraform-linters/tflint/blob/mast
 plugin "aws" {
     enabled = true
     version = "0.43.0"
-    source  = "github.com/terraform-linters/tflint-ruleset-aws"
+    source  = "github.com/arsiba/tofulint-ruleset-aws"
 }
 ```
 

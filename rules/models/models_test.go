@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/helper"
+	"github.com/arsiba/tofulint-plugin-sdk/helper"
 )
 
 func TestMain(m *testing.M) {

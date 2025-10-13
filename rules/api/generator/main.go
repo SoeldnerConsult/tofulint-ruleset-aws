@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"sort"
 
+	utils "github.com/arsiba/tofulint-ruleset-aws/rules/generator-utils"
 	"github.com/hashicorp/hcl/v2/gohcl"
 	"github.com/hashicorp/hcl/v2/hclparse"
-	utils "github.com/terraform-linters/tflint-ruleset-aws/rules/generator-utils"
 )
 
 type definition struct {

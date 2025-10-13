@@ -5,7 +5,7 @@ import (
 	"time"
 
 	hcl "github.com/hashicorp/hcl/v2"
-	"github.com/terraform-linters/tflint-plugin-sdk/helper"
+	"github.com/arsiba/tofulint-plugin-sdk/helper"
 )
 
 func Test_AwsLambdaFunctionEndOfSupport(t *testing.T) {
