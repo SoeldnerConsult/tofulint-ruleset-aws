@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-plugin-sdk/hclext"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
 )
 
 // AwsAPIGatewayModelInvalidNameRule checks the name is alphanumeric

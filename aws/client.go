@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/arsiba/tofulint-plugin-sdk/logger"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
 	"github.com/aws/aws-sdk-go-v2/service/ecs"
 	"github.com/aws/aws-sdk-go-v2/service/elasticache"
@@ -14,7 +15,6 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/rds"
 	awsbase "github.com/hashicorp/aws-sdk-go-base/v2"
 	"github.com/mitchellh/go-homedir"
-	"github.com/terraform-linters/tflint-plugin-sdk/logger"
 )
 
 // AwsClient is a wrapper of the AWS SDK client.
@@ -84,7 +84,7 @@ func getBaseConfig(creds Credentials) (*awsbase.Config, error) {
 		Profile:                creds.Profile,
 		Region:                 creds.Region,
 		CallerName:             "tflint-ruleset-aws",
-		CallerDocumentationURL: "https://github.com/terraform-linters/tflint-ruleset-aws/blob/master/docs/deep_checking.md",
+		CallerDocumentationURL: "https://github.com/arsiba/tofulint-ruleset-aws/blob/master/docs/deep_checking.md",
 	}
 
 	if creds.AssumeRoleARN != "" || creds.AssumeRoleExternalID != "" || creds.AssumeRolePolicy != "" || creds.AssumeRoleSessionName != "" {

@@ -10,7 +10,7 @@ import (
 	"sort"
 	"text/template"
 
-	utils "github.com/terraform-linters/tflint-ruleset-aws/rules/generator-utils"
+	utils "github.com/arsiba/tofulint-ruleset-aws/rules/generator-utils"
 )
 
 const filename = "resources.go"

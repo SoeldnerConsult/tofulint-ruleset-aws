@@ -5,9 +5,9 @@ package models
 import (
 	"fmt"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
-	"github.com/terraform-linters/tflint-plugin-sdk/logger"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-plugin-sdk/hclext"
+	"github.com/arsiba/tofulint-plugin-sdk/logger"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
 )
 
 // AwsAPIGatewayIntegrationInvalidContentHandlingRule checks the pattern is valid

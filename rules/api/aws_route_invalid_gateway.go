@@ -5,10 +5,10 @@ package api
 import (
 	"fmt"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
-	"github.com/terraform-linters/tflint-plugin-sdk/logger"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
-	"github.com/terraform-linters/tflint-ruleset-aws/aws"
+	"github.com/arsiba/tofulint-plugin-sdk/hclext"
+	"github.com/arsiba/tofulint-plugin-sdk/logger"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-ruleset-aws/aws"
 )
 
 // AwsRouteInvalidGatewayRule checks whether attribute value actually exists
@@ -91,7 +91,7 @@ func (r *AwsRouteInvalidGatewayRule) Check(rr tflint.Runner) error {
 			r.dataPrepared = true
 		}
 
-		err := runner.EvaluateExpr(attribute.Expr, func (val string) error {
+		err := runner.EvaluateExpr(attribute.Expr, func(val string) error {
 			if !r.data[val] {
 				runner.EmitIssue(
 					r,

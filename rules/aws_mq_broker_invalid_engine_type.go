@@ -1,8 +1,8 @@
 package rules
 
 import (
-	"github.com/terraform-linters/tflint-plugin-sdk/hclext"
-	"github.com/terraform-linters/tflint-plugin-sdk/tflint"
+	"github.com/arsiba/tofulint-plugin-sdk/hclext"
+	"github.com/arsiba/tofulint-plugin-sdk/tflint"
 )
 
 // AwsMqBrokerInvalidEngineTypeRule checks the pattern is valid

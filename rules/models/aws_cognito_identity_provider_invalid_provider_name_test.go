@@ -6,7 +6,7 @@ import (
 	"testing"
 	"fmt"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/helper"
+	"github.com/arsiba/tofulint-plugin-sdk/helper"
 )
 
 func Test_AwsCognitoIdentityProviderInvalidProviderNameRule(t *testing.T) {

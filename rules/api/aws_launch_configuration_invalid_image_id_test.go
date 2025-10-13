@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
 	"github.com/aws/smithy-go"
 	hcl "github.com/hashicorp/hcl/v2"
-	"github.com/terraform-linters/tflint-plugin-sdk/helper"
+	"github.com/arsiba/tofulint-plugin-sdk/helper"
 )
 
 func Test_AwsLaunchConfigurationInvalidImageID_invalid(t *testing.T) {

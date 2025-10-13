@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
+	utils "github.com/arsiba/tofulint-ruleset-aws/rules/generator-utils"
 	"github.com/dave/dst"
 	"github.com/dave/dst/decorator"
-	utils "github.com/terraform-linters/tflint-ruleset-aws/rules/generator-utils"
 )
 
 type metadata struct {

@@ -2,7 +2,7 @@
 
 package main
 
-import utils "github.com/terraform-linters/tflint-ruleset-aws/rules/generator-utils"
+import utils "github.com/arsiba/tofulint-ruleset-aws/rules/generator-utils"
 
 type providerMeta struct {
 	RuleNameCCList []string

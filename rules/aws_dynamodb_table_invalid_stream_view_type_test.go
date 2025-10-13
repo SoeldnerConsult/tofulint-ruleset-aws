@@ -3,7 +3,7 @@ package rules
 import (
 	"testing"
 
-	"github.com/terraform-linters/tflint-plugin-sdk/helper"
+	"github.com/arsiba/tofulint-plugin-sdk/helper"
 )
 
 func Test_AwsDynamoDBTableInvalidStreamViewTypeRule(t *testing.T) {

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/arsiba/tofulint-plugin-sdk/helper"
+	"github.com/arsiba/tofulint-ruleset-aws/aws"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
 	hcl "github.com/hashicorp/hcl/v2"
-	"github.com/terraform-linters/tflint-plugin-sdk/helper"
-	"github.com/terraform-linters/tflint-ruleset-aws/aws"
 )
 
 type mockClient struct {
