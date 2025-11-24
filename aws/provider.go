@@ -1,8 +1,8 @@
 package aws
 
 import (
-	"github.com/arsiba/tofulint-plugin-sdk/hclext"
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 )
 
 // AwsProviderBlockSchema is a schema of `aws` provider block

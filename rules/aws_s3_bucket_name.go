@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/arsiba/tofulint-plugin-sdk/hclext"
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 	"github.com/arsiba/tofulint-ruleset-aws/project"
 )
 

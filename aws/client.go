@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/arsiba/tofulint-plugin-sdk/logger"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/logger"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
 	"github.com/aws/aws-sdk-go-v2/service/ecs"
 	"github.com/aws/aws-sdk-go-v2/service/elasticache"

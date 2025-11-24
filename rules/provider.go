@@ -1,7 +1,7 @@
 package rules
 
 import (
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 	"github.com/arsiba/tofulint-ruleset-aws/rules/api"
 	"github.com/arsiba/tofulint-ruleset-aws/rules/ephemeral"
 	"github.com/arsiba/tofulint-ruleset-aws/rules/models"

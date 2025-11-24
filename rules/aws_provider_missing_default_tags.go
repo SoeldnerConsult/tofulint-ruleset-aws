@@ -6,9 +6,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/arsiba/tofulint-plugin-sdk/hclext"
-	"github.com/arsiba/tofulint-plugin-sdk/logger"
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/logger"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 	"github.com/arsiba/tofulint-ruleset-aws/project"
 	hcl "github.com/hashicorp/hcl/v2"
 	"github.com/zclconf/go-cty/cty"

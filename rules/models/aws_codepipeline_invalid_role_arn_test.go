@@ -6,7 +6,7 @@ import (
 	"testing"
 	"fmt"
 
-	"github.com/arsiba/tofulint-plugin-sdk/helper"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/helper"
 )
 
 func Test_AwsCodepipelineInvalidRoleArnRule(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/arsiba/tofulint-plugin-sdk/helper"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/helper"
 )
 
 func TestMain(m *testing.M) {

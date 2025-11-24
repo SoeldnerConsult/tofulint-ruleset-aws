@@ -1,4 +1,4 @@
-module github.com/arsiba/tofulint-ruleset-aws/tools/release
+module github.com/SoeldnerConsult/tofulint-ruleset-aws/tools/release
 
 go 1.24.0
 

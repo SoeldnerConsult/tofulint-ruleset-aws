@@ -2,7 +2,7 @@
 
 package models
 
-import "github.com/arsiba/tofulint-plugin-sdk/tflint"
+import "github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 
 // Rules is a list of rules generated from aws-sdk-go
 var Rules = []tflint.Rule{

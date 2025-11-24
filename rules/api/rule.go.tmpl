@@ -6,10 +6,10 @@ import (
 	"fmt"
 {{if eq .DataType "list"}}
 	hcl "github.com/hashicorp/hcl/v2"{{ end }}
-	"github.com/arsiba/tofulint-plugin-sdk/hclext"
-	"github.com/arsiba/tofulint-plugin-sdk/logger"
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
-	"github.com/arsiba/tofulint-ruleset-aws/aws"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/logger"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-ruleset-aws/aws"
 )
 
 // {{ .RuleNameCC }}Rule checks whether attribute value actually exists

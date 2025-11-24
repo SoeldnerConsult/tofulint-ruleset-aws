@@ -38,7 +38,7 @@ mapping "aws_cognito_user_pool_client" {
 }
 
 mapping "aws_cognito_user_pool_domain" {
-  domain          = any // DomainType is not appropriate for a fully-customized domain. See also https://github.com/arsiba/tofulint-ruleset-aws/issues/156
+  domain          = any // DomainType is not appropriate for a fully-customized domain. See also https://github.com/SoeldnerConsult/tofulint-ruleset-aws/issues/156
   user_pool_id    = UserPoolIdType
   certificate_arn = ArnType
 }

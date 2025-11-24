@@ -1,9 +1,13 @@
+github.com/SoeldnerConsult/tofulint-plugin-sdk v0.0.3 h1:ZHfCOtqk3k+wYi7VA7Is6qYn35qYQi2KI1VvqVZTni8=
+github.com/SoeldnerConsult/tofulint-plugin-sdk v0.0.3/go.mod h1:CDznCpEWa3DUxFOFE8uCzDtDkuPd+m+9q67Zyq5u02o=
 github.com/agext/levenshtein v1.2.2 h1:0S/Yg6LYmFJ5stwQeRp6EeOcCbj7xiqQSdNelsXvaqE=
 github.com/agext/levenshtein v1.2.2/go.mod h1:JEDfjyjHDjOF/1e4FlBE/PkbqA9OfWu2ki2W0IB5558=
 github.com/apparentlymart/go-textseg/v15 v15.0.0 h1:uYvfpb3DyLSCGWnctWKGj857c6ew1u1fNQOlOtuGxQY=
 github.com/apparentlymart/go-textseg/v15 v15.0.0/go.mod h1:K8XmNZdhEBkdlyDdvbmmsvpAG721bKi0joRfFdHIWJ4=
 github.com/arsiba/tofulint-plugin-sdk v0.0.2 h1:gr5hArqAYuyZNuKhE3uKKZ4wS2e2rvLLEj+Gr5BKjW8=
 github.com/arsiba/tofulint-plugin-sdk v0.0.2/go.mod h1:kcJPp/tr/y0Pl/MxBb9rByicX0VlRNpjeT4rCtt30fE=
+github.com/arsiba/tofulint-ruleset-aws v0.0.1 h1:gxiSMjT1fDWJkvMFbRBFj6q90k6XpRBTUthm9JPHc4c=
+github.com/arsiba/tofulint-ruleset-aws v0.0.1/go.mod h1:n4cQRq5+sJHm5fb3k74qGg/Q+504ksG+cpR56hWsSRA=
 github.com/aws/aws-sdk-go-v2 v1.39.2 h1:EJLg8IdbzgeD7xgvZ+I8M1e0fL0ptn/M47lianzth0I=
 github.com/aws/aws-sdk-go-v2 v1.39.2/go.mod h1:sDioUELIUO9Znk23YVmIk86/9DOpkbyyVb1i/gUNFXY=
 github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.1 h1:i8p8P4diljCr60PpJp6qZXNlgX4m2yQFpYk+9ZT+J4E=

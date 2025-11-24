@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/arsiba/tofulint-plugin-sdk/helper"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/helper"
 	"github.com/arsiba/tofulint-ruleset-aws/aws"
 	"github.com/aws/aws-sdk-go-v2/service/ec2"
 	hcl "github.com/hashicorp/hcl/v2"

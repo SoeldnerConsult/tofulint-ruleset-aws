@@ -1,4 +1,4 @@
-module github.com/arsiba/tofulint-ruleset-aws
+module github.com/SoeldnerConsult/tofulint-ruleset-aws
 
 go 1.25.1
 
@@ -19,7 +19,8 @@ require (
 )
 
 require (
-	github.com/arsiba/tofulint-plugin-sdk v0.0.2
+	github.com/SoeldnerConsult/tofulint-plugin-sdk v0.0.3
+	github.com/arsiba/tofulint-ruleset-aws v0.0.1
 	github.com/aws/aws-sdk-go-v2/service/ec2 v1.254.1
 	github.com/aws/aws-sdk-go-v2/service/ecs v1.65.1
 	github.com/aws/aws-sdk-go-v2/service/elasticache v1.50.5
@@ -37,6 +38,7 @@ require (
 
 require (
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
+	github.com/arsiba/tofulint-plugin-sdk v0.0.2 // indirect
 	github.com/aws/aws-sdk-go-v2 v1.39.2 // indirect
 	github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream v1.7.1 // indirect
 	github.com/aws/aws-sdk-go-v2/config v1.31.12 // indirect

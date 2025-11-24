@@ -11,9 +11,9 @@ import (
 {{- end }}
 {{- if or (and (or (ne .Pattern "") (ne (len .Enum) 0)) (ne .Sensitive true)) (ne .Pattern "") }}
 {{ end }}
-	"github.com/arsiba/tofulint-plugin-sdk/hclext"
-	"github.com/arsiba/tofulint-plugin-sdk/logger"
-	"github.com/arsiba/tofulint-plugin-sdk/tflint"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/hclext"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/logger"
+	"github.com/SoeldnerConsult/tofulint-plugin-sdk/tflint"
 )
 
 // {{ .RuleNameCC }}Rule checks the pattern is valid
